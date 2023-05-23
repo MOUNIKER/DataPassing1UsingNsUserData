@@ -38,14 +38,13 @@
                                     <constraint firstItem="IXF-ye-vHs" firstAttribute="top" secondItem="7Y7-Vr-KJo" secondAttribute="top" id="lWN-l6-ex4"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYL-hL-YNm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYL-hL-YNm">
                                 <rect key="frame" x="16" y="458" width="360" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="ISm-6D-iS6"/>
                                     <constraint firstAttribute="width" constant="360" id="PaP-O8-eP6"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Save"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="save"/>
                                 <connections>
                                     <action selector="SavebtnnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Wj-ya-A5L"/>
                                 </connections>
